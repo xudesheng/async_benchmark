@@ -1,0 +1,72 @@
+[package]
+name = "async_benchmark"
+version = "0.1.0"
+authors = ["xudesheng <xudesheng@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "asynctest"
+path = "src/main.rs"
+
+[[bin]]
+name = "test00"
+path = "src/test00.rs"
+
+[[bin]]
+name = "test01"
+path = "src/test01.rs"
+
+[[bin]]
+name = "test02"
+path = "src/test02.rs"
+
+[[bin]]
+name = "test03"
+path = "src/test03.rs"
+
+[[bin]]
+name = "test04"
+path = "src/test04.rs"
+
+[[bin]]
+name = "test05"
+path = "src/test05.rs"
+
+
+[[bin]]
+name = "test06"
+path = "src/test06.rs"
+
+
+[[bin]]
+name = "test07"
+path = "src/test07.rs"
+
+
+[[bin]]
+name = "test08"
+path = "src/test08.rs"
+
+
+[[bin]]
+name = "test09"
+path = "src/test09.rs"
+
+[dependencies]
+tokio = { version = "0.2.6",  features = ["full"] }
+tokio-util = { version = "0.2",  features = ["full"] }
+bytes = "0.5"
+futures = "0.3.0"
+http = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+httparse = "1.0"
+time = "0.1"
+rayon = "1.3.0"
+async-std = "1.4.0"
+chrono = "0.4.10"
+threadpool = "1.7.1"
+num_cpus = "1.11.1"
