@@ -17,7 +17,7 @@ To run test on your own machine, you can use following command:
 ./target/release/asynctest ./sample 10 2000000
 ```
 
-It means: asynctest will create 10 CSV files understand folder ./sample and total lines summurized from all CSV files in total would be 2M.
+It means: asynctest will create 10 CSV files under folder ./sample and total lines summurized from all CSV files in total would be 2M.
 
 Asynctest will invoke 10 different binary excutable files and test performance.
 
