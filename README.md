@@ -21,7 +21,7 @@ It means: asynctest will create 10 CSV files under folder ./sample and total lin
 
 Asynctest will invoke 10 different binary excutable files and test performance.
 
-In below table, all results are milliseconds.  (VM: Azure D4_v3, 4 vCPU, 16G Memory, SSD)
+In below table, all results are milliseconds.  (VM: Azure D4_v3, 4 vCPU, 16G Memory, SSD, Redhat 7.x)
 
 |        | Async/Sync, Files/Total Lines | 1/1,000,000 | 5/1,000,000 | 10/10,000,000 | 25/20,000,000 | 50/100,000,000 |
 | ------ | ----------------------------- | ----------- | ----------- | ------------- | ------------- | -------------- |
